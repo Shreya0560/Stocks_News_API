@@ -1,1 +1,2 @@
-# Stocks_News_API
+# Stocks_News_API 
+In this project I used a Stock API called alphavantage as well as a News API called newsapi. Users can input the STOCK_NAME and COMPANY_NAME they would like to use. The program will then calculate the percent difference between yesterday's closing stock price and the day before yesterday's closing stock price. If the percent difference is high, this indicates that something significant may have happened with the company. So then the code utilizes the news api to return the top three articles with that company name. In my current code, this percent difference is set to being greater than 1 but can be changed in the code. 
